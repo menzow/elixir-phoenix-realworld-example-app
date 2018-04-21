@@ -12,7 +12,7 @@ defmodule RealWorldWeb.Endpoint do
     at: "/",
     from: :real_world,
     gzip: false,
-    only: ~w(css fonts images js favicon.ico robots.txt)
+    only: ~w(static favicon.ico robots.txt index.html)
   )
 
   # Code reloading can be explicitly enabled under the
